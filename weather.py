@@ -63,7 +63,7 @@ with open ('stations.csv') as stations_file:
         }
         all_locations_precipitations[location] = precipitation_summary
 
-#I did not commit for step 2 but the code was the above without the relative yearly rate 
+#I did not commit for step 2 but the code was the above without the relative yearly rate and not looped for all locations at the start
     #with open ('result2.json', 'w') as seatle_summary:
         #json.dump(precipitation_summary, seatle_summary, indent =4 )
 
